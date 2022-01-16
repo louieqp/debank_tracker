@@ -1,40 +1,28 @@
-from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import chromedriver_binary
-import sched, time
-from datetime import date,datetime
+import requests
 import json
+import pandas as pd
+from datetime import datetime
 
 def getData(wallet_address):
-   
-    url = f'https://debank.com/profile/{wallet_address}'
-    networks = ['Ethereum','BSC', 'Polygon', 'Fantom', 'Avalanche']
+    chains = ['eth', 'bsc', 'matic', 'avax', 'ftm']
 
-    # Enable JS
-    options = webdriver.ChromeOptions()
-    options.add_argument("--enable-javascript")
+    columns = ['Chain','Value','Time']
+    data_dict = {}
 
-    # Get HTML
-    driver = webdriver.Chrome(options=options)
-    driver.get(url)
-    time.sleep(14)
-    html = driver.page_source
+    for column in columns:
+        data_dict[column] = [] 
 
-    # Close browser
-    driver.close()
+    now = datetime.now().strftime("%d/%m/%Y %H:%M")
+    for chain in chains:
+        url = f'https://openapi.debank.com/v1/user/chain_balance?id={wallet_address}&chain_id={chain}'
+        response = json.loads(requests.get(url).text)
+        chain_val = round(response['usd_value'],2)
+        data_dict['Chain'].append(chain.upper())
+        data_dict['Value'].append(chain_val)
+        data_dict['Time'].append(now)
 
-    # Parse HTML
-    soup = BeautifulSoup(html, 'html.parser')
+    print(pd.DataFrame(data_dict))
 
-    total_portfolio = soup.find("div", {'class': 'TotalChainPortfolio_totalChain__1R3Tl'})
-    assets = total_portfolio.find_all("span")
-        
-    with open('data.csv','a') as data:
-        now = datetime.now().strftime("%d/%m/%Y %H:%M")
-        for i,span in enumerate(assets):
-            data.write(f'{networks[i]},{span.text[1:].replace(",","")},{now}\n' )
-    
 def read_config():
     with open('config.json', 'r') as f:
         config = json.load(f)
