@@ -1,0 +1,96 @@
+1642088172147	geckodriver	INFO	Listening on 127.0.0.1:57264
+1642088172662	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57265" "-foreground" "-no-remote" "-profile" "/var/folders/b0/qhk7y3b564d4my9v7x27g9wh0000gn/T/rust_mozprofilezd8Qjd"
+1642088173698	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b0/qhk7y3b564d4my9v7x27g9wh0000gn/T/rust_mozprofilezd8Qjd/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:57265/devtools/browser/28bf86f4-61f1-4114-85eb-6fa9cd75c47a
+1642088176151	Marionette	INFO	Listening on port 57272
+1642088176767	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+1642088451954	geckodriver	INFO	Listening on 127.0.0.1:57451
+1642088452471	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57452" "-foreground" "-no-remote" "-profile" "/var/folders/b0/qhk7y3b564d4my9v7x27g9wh0000gn/T/rust_mozprofileXEeaIZ"
+1642088453058	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b0/qhk7y3b564d4my9v7x27g9wh0000gn/T/rust_mozprofileXEeaIZ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:57452/devtools/browser/532c92d8-4d8a-4976-a556-51df5c514868
+1642088455130	Marionette	INFO	Listening on port 57459
+1642088455212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+1642088492246	geckodriver	INFO	Listening on 127.0.0.1:57530
+1642088492754	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57531" "-foreground" "-no-remote" "-profile" "/var/folders/b0/qhk7y3b564d4my9v7x27g9wh0000gn/T/rust_mozprofileDi25QC"
+1642088493406	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b0/qhk7y3b564d4my9v7x27g9wh0000gn/T/rust_mozprofileDi25QC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:57531/devtools/browser/51d32d93-8fe8-4ecc-ac6a-b07a5a743ceb
+1642088496145	Marionette	INFO	Listening on port 57538
+1642088496245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+1642088503162	Marionette	INFO	Stopped listening on port 57538
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642088518448	Marionette	INFO	Stopped listening on port 57459
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642088522047	Marionette	INFO	Stopped listening on port 57272
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1642088731909	geckodriver	INFO	Listening on 127.0.0.1:57690
+1642088732421	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57691" "-foreground" "-no-remote" "-profile" "/var/folders/b0/qhk7y3b564d4my9v7x27g9wh0000gn/T/rust_mozprofiled6MWqi"
+1642088733077	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b0/qhk7y3b564d4my9v7x27g9wh0000gn/T/rust_mozprofiled6MWqi/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:57691/devtools/browser/f30fff56-2eca-451e-8a6f-8da9814ab3f3
+1642088735384	Marionette	INFO	Listening on port 57698
+1642088735459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+1642088743096	Marionette	INFO	Stopped listening on port 57698
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642088761508	geckodriver	INFO	Listening on 127.0.0.1:57780
+1642088762028	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57781" "-foreground" "-no-remote" "-profile" "/var/folders/b0/qhk7y3b564d4my9v7x27g9wh0000gn/T/rust_mozprofile5LOhf7"
+1642088762628	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b0/qhk7y3b564d4my9v7x27g9wh0000gn/T/rust_mozprofile5LOhf7/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:57781/devtools/browser/da1bc62b-23f1-4814-b909-dbe46abd8f03
+1642088764606	Marionette	INFO	Listening on port 57788
+1642088764728	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+1642088786222	Marionette	INFO	Stopped listening on port 57788
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642088859698	geckodriver	INFO	Listening on 127.0.0.1:57880
+1642088860205	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--enable-javascript" "--remote-debugging-port" "57881" "-foreground" "-no-remote" "-profile" "/var/folders/b0/qhk7y3b564d4my9v7x27g9wh0000gn/T/rust_mozprofile4p3pHx"
+1642088860822	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b0/qhk7y3b564d4my9v7x27g9wh0000gn/T/rust_mozprofile4p3pHx/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:57881/devtools/browser/45c72525-c2dd-4c41-8ee7-a2c986702e94
+1642088862931	Marionette	INFO	Listening on port 57888
+1642088862987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://debank.com/static/js/constModule.da4a8268.chunk.js, line 1: unreachable code after return statement
+1642088874563	Marionette	INFO	Stopped listening on port 57888
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
